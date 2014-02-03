@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Твой ПРМ для базы"
+            android:textSize="35dp"
+            android:textAlignment="center"/>
+
+    <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+         <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Жим лежа: "
+                android:textSize="27dp"
+                android:layout_row="0"
+                android:layout_column="0"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/gym"
+                android:layout_row="0"
+                android:layout_column="1"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="кг на "
+                android:textSize="27dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                />
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="2"
+                android:id="@+id/gymPovtorenia"
+                android:layout_row="0"
+                android:layout_column="3"/>
+
+
+        <!-- Следующая строка пошла -->
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Присадния "
+                android:textSize="27dp"
+                android:layout_row="1"
+                android:layout_column="0"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/squat"
+                android:layout_row="1"
+                android:layout_column="1"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="кг на "
+                android:textSize="27dp"
+                android:layout_row="1"
+                android:layout_column="2"
+                />
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="2"
+                android:id="@+id/squatPovtorenia"
+                android:layout_row="1"
+                android:layout_column="3"/>
+
+
+        <!-- Следующая строка пошла -->
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="тяга : "
+                android:textSize="27dp"
+                android:layout_row="2"
+                android:layout_column="0"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/deadlift"
+                android:layout_row="2"
+                android:layout_column="1"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="кг на "
+                android:textSize="27dp"
+                android:layout_row="2"
+                android:layout_column="2"
+                />
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="2"
+                android:id="@+id/deadliftPovtorenia"
+                android:layout_row="2"
+                android:layout_column="3"/>
+
+    </GridLayout>
+</LinearLayout>
